@@ -1,0 +1,55 @@
+#home-pop{
+    display:none ;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    bottom: 40%;
+    line-height: 1.4;
+    width: 100vw;
+    height: 40vh;
+    padding: 14px 28px;
+    border-radius: 2px;
+    max-width: 600px;
+    min-width: 300px;
+    background: #f1f1f1;
+    z-index: 10;
+} 
+
+
+ .hoo{
+    background-color: rgb(166, 205, 238);
+    text-align: center;
+} 
+
+
+
+.btn-can{
+    padding: 10px 30px;
+   left: 40%;
+    margin-left: 30px ;
+    font-size: 9px;
+    background-color: rgb(236, 92, 92);
+}
+
+.btn-sub{
+    padding: 10px 30px;
+    margin-right: 40px;
+    font-size: 9px;
+    background-color: rgb(96, 235, 96);
+}
+
+
+
+.home-blur{
+    transform: translate(0% ,0%);
+    background-color: rgba(0,0,0,0.5);
+    height: 100vh;
+  width: 100%;
+  z-index: 99999;
+filter: blur(1px);
+}
+
+.home-center{
+    text-align: center;
+}
